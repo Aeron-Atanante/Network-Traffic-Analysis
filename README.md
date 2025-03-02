@@ -12,7 +12,7 @@ This project focuses on capturing, analyzing, and detecting threats in network t
 1. **Open Wireshark** on Ubuntu.
 2. **Select the Network Interface**:
    - Use `ip a` or `ifconfig` to find the active network interface.
-   - Choose the appropriate interface in Wireshark (e.g., `eth0`, `wlan0`).
+   - Choose the appropriate interface in Wireshark (e.g., `eth0`, `wlan0`, `enp0s3`).
 3. **Start Packet Capture**:
    - Click the **Start** button.
    - Generate network traffic between VMs.
@@ -20,8 +20,8 @@ This project focuses on capturing, analyzing, and detecting threats in network t
 4. **Save the Capture File**:
    - Go to `File > Save As`.
    - Name it `network_traffic.pcap`.
-
-![Wireshark Capture](PLACEHOLDER-Wireshark-Capture.png)
+![{1BBC2107-1854-4944-9114-A04719A8A503}](https://github.com/user-attachments/assets/ed5cfbdb-e99e-4c58-8571-f01559c50e00)
+*Reference Image: Wireshark Capture*
 
 ## 2. Simulating Threats & Analyzing Traffic
 
