@@ -81,7 +81,7 @@ This project focuses on capturing, analyzing, and detecting threats in network t
       - Suggests an attacker probing for vulnerabilities.
       
       ## 🚀 Conclusion
-      This traffic strongly suggests a **port scan** rather than normal communication. The source IP (`192.168.216.6`) is likely using an automated tool to **enumerate open ports** on `192.168.216.5`.
+      This traffic strongly suggests a **port scan** rather than normal communication. The source IP (`192.168.216.6`) is likely using a network scanning tool(nmap) to **enumerate open ports** on `192.168.216.5`.
 ![{26F11E96-55FD-4ED1-8A52-719CE7F58CD7}](https://github.com/user-attachments/assets/fb6dbcbe-7a08-4a9a-a2b9-9f00ca1179ab)
 *Reference Image: Port Scan Capture*
 
